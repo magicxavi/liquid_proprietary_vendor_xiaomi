@@ -1318,7 +1318,6 @@ PRODUCT_PACKAGES += \
     CneApp \
     IWlanService \
     TimeService \
-    imssettings \
     PowerOffAlarm \
     dpmserviceapp \
     QtiTelephonyServicelibrary \
