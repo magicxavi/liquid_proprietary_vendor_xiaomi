@@ -416,6 +416,7 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/s2/proprietary/vendor/bin/loc_launcher:system/vendor/bin/loc_launcher \
     vendor/leeco/s2/proprietary/vendor/bin/lowi-server:system/vendor/bin/lowi-server \
     vendor/leeco/s2/proprietary/vendor/bin/mm-pp-daemon:system/vendor/bin/mm-pp-daemon \
+    vendor/leeco/s2/proprietary/vendor/bin/msm_irqbalance:system/vendor/bin/msm_irqbalance \
     vendor/leeco/s2/proprietary/vendor/bin/netmgrd:system/vendor/bin/netmgrd \
     vendor/leeco/s2/proprietary/vendor/bin/pm-proxy:system/vendor/bin/pm-proxy \
     vendor/leeco/s2/proprietary/vendor/bin/pm-service:system/vendor/bin/pm-service \
