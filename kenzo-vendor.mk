@@ -796,6 +796,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/kenzo/proprietary/vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so \
     vendor/xiaomi/kenzo/proprietary/vendor/lib64/hw/gatekeeper.msm8952.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gatekeeper.msm8952.so \
     vendor/xiaomi/kenzo/proprietary/vendor/lib64/hw/keystore.msm8952.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/keystore.msm8952.so \
+    vendor/xiaomi/kenzo/proprietary/vendor/lib64/libcrypto_keystore.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcrypto_keystore.so \
     vendor/xiaomi/kenzo/proprietary/vendor/lib64/hw/vendor.qti.gnss@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.gnss@1.0-impl.so \
     vendor/xiaomi/kenzo/proprietary/vendor/lib64/hw/vulkan.msm8952.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vulkan.msm8952.so \
     vendor/xiaomi/kenzo/proprietary/vendor/lib64/lib-dplmedia.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-dplmedia.so \
