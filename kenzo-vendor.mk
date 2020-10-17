@@ -1034,6 +1034,5 @@ PRODUCT_PACKAGES += \
     TimeService \
     QtiTelephonyServicelibrary \
     qcrilhook \
-    qti-telephony-common \
     PowerOffAlarm
 
