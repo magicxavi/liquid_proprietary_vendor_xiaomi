@@ -505,7 +505,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/kenzo/proprietary/lib/lib-imsvtextutils.so:$(TARGET_COPY_OUT_SYSTEM)/lib/lib-imsvtextutils.so \
     vendor/xiaomi/kenzo/proprietary/product/lib/libdiag_system.so:$(TARGET_COPY_OUT_PRODUCT)/lib/libdiag_system.so \
     vendor/xiaomi/kenzo/proprietary/lib/lib-imsvtutils.so:$(TARGET_COPY_OUT_SYSTEM)/lib/lib-imsvtutils.so \
-    vendor/xiaomi/kenzo/proprietary/lib/libOmxVpp.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libOmxVpp.so \
     vendor/xiaomi/kenzo/proprietary/lib/libadsprpc.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libadsprpc.so \
     vendor/xiaomi/kenzo/proprietary/product/lib/libdpmctmgr.so:$(TARGET_COPY_OUT_PRODUCT)/lib/libdpmctmgr.so \
     vendor/xiaomi/kenzo/proprietary/product/lib/libdpmfdmgr.so:$(TARGET_COPY_OUT_PRODUCT)/lib/libdpmfdmgr.so \
@@ -513,13 +512,11 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/kenzo/proprietary/product/lib/libdpmtcm.so:$(TARGET_COPY_OUT_PRODUCT)/lib/libdpmtcm.so \
     vendor/xiaomi/kenzo/proprietary/lib/libimscamera_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libimscamera_jni.so \
     vendor/xiaomi/kenzo/proprietary/lib/libimsmedia_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libimsmedia_jni.so \
-    vendor/xiaomi/kenzo/proprietary/lib/libmmosal.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmmosal.so \
     vendor/xiaomi/kenzo/proprietary/lib/libqmi_cci_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libqmi_cci_system.so \
     vendor/xiaomi/kenzo/proprietary/lib/libqvr_adsp_driver_skel.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libqvr_adsp_driver_skel.so \
     vendor/xiaomi/kenzo/proprietary/lib/libqvr_adsp_driver_stub.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libqvr_adsp_driver_stub.so \
     vendor/xiaomi/kenzo/proprietary/lib/librcc.so:$(TARGET_COPY_OUT_SYSTEM)/lib/librcc.so \
     vendor/xiaomi/kenzo/proprietary/lib/libsoeminfo.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsoeminfo.so \
-    vendor/xiaomi/kenzo/proprietary/lib/libvpplibrary.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libvpplibrary.so \
     vendor/xiaomi/kenzo/proprietary/lib/vendor.display.postproc@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.display.postproc@1.0.so \
     vendor/xiaomi/kenzo/proprietary/lib/vendor.qti.hardware.qdutils_disp@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.qti.hardware.qdutils_disp@1.0.so \
     vendor/xiaomi/kenzo/proprietary/lib/vendor.qti.imsrtpservice@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.qti.imsrtpservice@1.0.so \
@@ -534,17 +531,14 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/kenzo/proprietary/lib64/lib-imsvt.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/lib-imsvt.so \
     vendor/xiaomi/kenzo/proprietary/lib64/lib-imsvtextutils.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/lib-imsvtextutils.so \
     vendor/xiaomi/kenzo/proprietary/lib64/lib-imsvtutils.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/lib-imsvtutils.so \
-    vendor/xiaomi/kenzo/proprietary/lib64/libOmxVpp.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libOmxVpp.so \
     vendor/xiaomi/kenzo/proprietary/lib64/libadsprpc.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libadsprpc.so \
     vendor/xiaomi/kenzo/proprietary/product/lib64/libdiag_system.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libdiag_system.so \
     vendor/xiaomi/kenzo/proprietary/product/lib64/libdpmframework.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libdpmframework.so \
     vendor/xiaomi/kenzo/proprietary/product/lib64/libdpmtcm.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libdpmtcm.so \
     vendor/xiaomi/kenzo/proprietary/lib64/liblocationservice_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/liblocationservice_jni.so \
-    vendor/xiaomi/kenzo/proprietary/lib64/libmmosal.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmmosal.so \
     vendor/xiaomi/kenzo/proprietary/lib64/libqmi_cci_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libqmi_cci_system.so \
     vendor/xiaomi/kenzo/proprietary/lib64/librcc.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/librcc.so \
     vendor/xiaomi/kenzo/proprietary/lib64/libsoeminfo.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsoeminfo.so \
-    vendor/xiaomi/kenzo/proprietary/lib64/libvpplibrary.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libvpplibrary.so \
     vendor/xiaomi/kenzo/proprietary/lib64/libxt_native.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libxt_native.so \
     vendor/xiaomi/kenzo/proprietary/lib64/vendor.display.postproc@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.display.postproc@1.0.so \
     vendor/xiaomi/kenzo/proprietary/lib64/vendor.qti.gnss@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.qti.gnss@1.0.so \
@@ -695,10 +689,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/kenzo/proprietary/vendor/lib/libmm-color-convertor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmm-color-convertor.so \
     vendor/xiaomi/kenzo/proprietary/vendor/lib/libmm-disp-apis.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmm-disp-apis.so \
     vendor/xiaomi/kenzo/proprietary/vendor/lib/libmm-qdcm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmm-qdcm.so \
-    vendor/xiaomi/kenzo/proprietary/vendor/lib/libmmsw_detail_enhancement.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmsw_detail_enhancement.so \
-    vendor/xiaomi/kenzo/proprietary/vendor/lib/libmmsw_math.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmsw_math.so \
-    vendor/xiaomi/kenzo/proprietary/vendor/lib/libmmsw_opencl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmsw_opencl.so \
-    vendor/xiaomi/kenzo/proprietary/vendor/lib/libmmsw_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmsw_platform.so \
     vendor/xiaomi/kenzo/proprietary/vendor/lib/libnetmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnetmgr.so \
     vendor/xiaomi/kenzo/proprietary/vendor/lib/libperipheral_client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libperipheral_client.so \
     vendor/xiaomi/kenzo/proprietary/vendor/lib/libqcci_legacy.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqcci_legacy.so \
@@ -854,10 +844,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/kenzo/proprietary/vendor/lib64/libmm-dspp-utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmm-dspp-utils.so \
     vendor/xiaomi/kenzo/proprietary/vendor/lib64/libmm-qdcm-diag.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmm-qdcm-diag.so \
     vendor/xiaomi/kenzo/proprietary/vendor/lib64/libmm-qdcm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmm-qdcm.so \
-    vendor/xiaomi/kenzo/proprietary/vendor/lib64/libmmsw_detail_enhancement.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmsw_detail_enhancement.so \
-    vendor/xiaomi/kenzo/proprietary/vendor/lib64/libmmsw_math.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmsw_math.so \
-    vendor/xiaomi/kenzo/proprietary/vendor/lib64/libmmsw_opencl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmsw_opencl.so \
-    vendor/xiaomi/kenzo/proprietary/vendor/lib64/libmmsw_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmsw_platform.so \
     vendor/xiaomi/kenzo/proprietary/vendor/lib64/libnetmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnetmgr.so \
     vendor/xiaomi/kenzo/proprietary/vendor/lib64/libperipheral_client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libperipheral_client.so \
     vendor/xiaomi/kenzo/proprietary/vendor/lib64/libqcci_legacy.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqcci_legacy.so \
@@ -1013,6 +999,18 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/kenzo/proprietary/vendor/lib64/vendor.qti.hardware.btconfigstore@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.btconfigstore@1.0.so \
     vendor/xiaomi/kenzo/proprietary/vendor/lib64/libbase-hax.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbase-hax.so
     
+# Media Blobs
+PRODUCT_COPY_FILES += \
+    vendor/xiaomi/kenzo/proprietary/vendor/lib/libgpustats.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgpustats.so \
+    vendor/xiaomi/kenzo/proprietary/vendor/lib/libmmosal_proprietary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmosal_proprietary.so \
+    vendor/xiaomi/kenzo/proprietary/vendor/lib/libOmxAmrDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxAmrDec.so \
+    vendor/xiaomi/kenzo/proprietary/vendor/lib/libOmxVideoDSMode.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxVideoDSMode.so \
+    vendor/xiaomi/kenzo/proprietary/vendor/lib/libvqzip.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvqzip.so \
+    vendor/xiaomi/kenzo/proprietary/vendor/lib64/libgpustats.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgpustats.so \
+    vendor/xiaomi/kenzo/proprietary/vendor/lib64/libOmxAmrDec.so:$(TARGET_COPY_OUT_VENDOR)/libOmxAmrDec.so \
+    vendor/xiaomi/kenzo/proprietary/vendor/lib64/libOmxEvrcDec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxEvrcDec.so \
+    vendor/xiaomi/kenzo/proprietary/vendor/lib64/libOmxQcelp13Dec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxQcelp13Dec.so
+
 # IMS Blobs
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/kenzo/proprietary/vendor/etc/init/ims_rtp_daemon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/ims_rtp_daemon.rc \
@@ -1055,6 +1053,7 @@ PRODUCT_PACKAGES += \
     libts_detected_face_hal \
     libts_face_beautify_hal \
     vendor.display.color@1.0 \
+    libgpustats \
     libthermalclient \
     libloc_api_v02 \
     QtiTelephonyService \
